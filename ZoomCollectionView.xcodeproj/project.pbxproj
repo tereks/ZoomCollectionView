@@ -13,6 +13,7 @@
 		2727EF801E5AE76B00867964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2727EF7F1E5AE76B00867964 /* Assets.xcassets */; };
 		2727EF831E5AE76B00867964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2727EF811E5AE76B00867964 /* LaunchScreen.storyboard */; };
 		2727EF8B1E5AE7D500867964 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727EF8A1E5AE7D500867964 /* Cell.swift */; };
+		BE8B9EF01E65CB36002DC7BC /* ZoomableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B9EEF1E65CB36002DC7BC /* ZoomableDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2727EF821E5AE76B00867964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2727EF841E5AE76B00867964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2727EF8A1E5AE7D500867964 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		BE8B9EEF1E65CB36002DC7BC /* ZoomableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2727EF781E5AE76B00867964 /* AppDelegate.swift */,
 				2727EF7A1E5AE76B00867964 /* ViewController.swift */,
+				BE8B9EEE1E65CB1F002DC7BC /* ZoomableDataSource */,
 				2727EF8A1E5AE7D500867964 /* Cell.swift */,
 				2727EF7C1E5AE76B00867964 /* Main.storyboard */,
 				2727EF7F1E5AE76B00867964 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				2727EF841E5AE76B00867964 /* Info.plist */,
 			);
 			path = ZoomCollectionView;
+			sourceTree = "<group>";
+		};
+		BE8B9EEE1E65CB1F002DC7BC /* ZoomableDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B9EEF1E65CB36002DC7BC /* ZoomableDataSource.swift */,
+			);
+			path = ZoomableDataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				2727EF7B1E5AE76B00867964 /* ViewController.swift in Sources */,
 				2727EF791E5AE76B00867964 /* AppDelegate.swift in Sources */,
 				2727EF8B1E5AE7D500867964 /* Cell.swift in Sources */,
+				BE8B9EF01E65CB36002DC7BC /* ZoomableDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
